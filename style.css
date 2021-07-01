@@ -1,0 +1,165 @@
+h1
+{
+	font-family: comic sans MC;
+	font-size: 35px;
+
+}
+
+p
+{
+	font-family: Pacific;
+	margin-top: 40px 40px;
+	padding: 18px;
+	line-height: 1.5;
+}
+h4
+{
+	font-family: comis sans MC;
+	font-size: 30px
+}
+
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: 'Montserrat', sans serif;
+	background: #F0E9F7;
+}
+/* Navbar */
+nav
+{
+	display: flex;
+	background-color: rgb(180, 78, 232);
+	justify-content: space-around;
+	/* padding: 20px 0; */
+	color: rgb(234, 192, 255);
+	height: 50px;
+	align-items: center;
+}
+nav .logo
+{
+	font-family: 'Pacifico', curvise;
+	letter-spacing: 3px;
+}
+nav ul 
+{
+	display: flex;
+	list-style: none;
+	width: 40%;
+	justify-content: space-between;
+}
+nav ul li a
+{
+	color: rgb(234, 192, 255);
+	text-decoration: none;
+	font-size: 0.9em;
+}
+nav ul li a:hover
+{
+	color: rgb(250, 240, 255);
+}
+h4
+{
+	color: white;
+	font-size: 32px;
+}
+
+
+h1{
+	padding-top: 10px;
+	font-size: 36px;
+	padding: 0px;
+	margin: 0px;
+	line-height: 100px;
+	text-shadow: 0-1px 1px rgba(0,0,0,0,25);
+	width: 310px;
+	color: rgba(0,0,0,0,2);
+	float: left;
+}
+.active{
+    color: ivory;
+}
+.banner{
+    height: 90vh;
+    background-image: url(banner.jpg) ;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner :after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom:0px;
+}
+.banner h2{
+    color:black;
+    z-index: 5;
+    padding:20px 50px ;
+    border: 5px solid black;
+ }
+
+.profile hr{
+	width: 1280px;
+	border-top: 5px solid #666;}
+	h2{
+		font-size: 25px;
+		font-family: 'Pacifico';
+		margin-top: 40px 40px;
+		padding: 0px;
+}
+
+.gallery hr{
+	width: 1280px;
+	border-top: 5px solid #666;}
+	h2{
+		font-size: 25px;
+		font-family: 'Pacifico';
+		margin-top: 40px 40px;
+		padding: 0px;
+}
+
+ .container1 {
+   width: 1350px;
+   margin: 0px auto;
+   display: grid;;
+   grid-template-columns: 30% auto;
+   grid-template-rows: 100px;
+}
+
+.item {
+	justify-content: left;
+	align-items: left;
+	padding-left: 0px;}
+
+.container {
+	background: #FFFFFF;
+	padding-top:1px;
+	height:84px;
+}
+   
+.gallery img {
+   width: 312px;
+   height: 208px;
+   padding-left: 0px;
+   padding-top: 30px;
+   margin: 0px;
+   padding: 10px;
+   align-items: center;
+ }
+
+.contact hr{
+	width: 1280px;
+	border-top: 5px solid #666;}
+	h2{
+		font-size: 25px;
+		font-family: 'Pacifico';
+		margin-top: 40px 40px;
+		padding: 0px;
